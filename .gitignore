@@ -20,5 +20,4 @@ __pycache__/
 Thumbs.db
 
 # ML Models
-*.pkl
 *.joblib
