@@ -1,8 +1,13 @@
 import streamlit as st 
 import pandas as pd 
 import joblib 
+from pathlib import Path 
 
-model = joblib.load("models/random_forest_model.pkl")
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+model_path = BASE_DIR / "models" / "random_forest_model.pkl"
+
+model = joblib.load(model_path)
 
 st.title("💳 Credit Scoring Model")
 st.write(
