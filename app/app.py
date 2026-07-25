@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd 
 import joblib 
 
-model = joblib.load("../models/random_forest_model.pkl")
+model = joblib.load("models/random_forest_model.pkl")
 
 st.title("💳 Credit Scoring Model")
 st.write(
