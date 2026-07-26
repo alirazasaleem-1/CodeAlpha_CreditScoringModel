@@ -8,6 +8,7 @@ seaborn>=0.13
 
 # Machine Learning
 scikit-learn>=1.9
+joblib>=1.5
 
 # Web App
 streamlit>=1.59
